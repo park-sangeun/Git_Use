@@ -15,7 +15,8 @@ git checkout feature/SPRING2024_SE //branch 전환
 git branch //현재 branch 확인
 ```
 * feature인 이유? </br>
-버전 충돌 방지
+버전 충돌 방지하기 위함 </br>
+따로 제작 후 추가하는 방식
 
 3. push로 원격 저장소에 기본 branch 설정
 ```
