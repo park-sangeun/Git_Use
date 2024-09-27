@@ -30,7 +30,7 @@ git push --set-upstream origin feature/SPRING2024_SE
 git add . 
 git commit -m "Upload~~"
 
-git push origin origin/SPRING2024_SE //branch에 올림
+git push origin feature/SPRING2024_SE //branch에 올림
 git push //이때 파일 올라감
 ```
 
