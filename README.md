@@ -6,7 +6,7 @@
 ```
 git clone 우리 flow git주소
 ```
-2. pycharm에서 terminal 실행
+2. clone 폴더 연 pycharm에서 terminal 실행
 ```
 git branch
 git branch feature/SPRING2024_SE //branch 생성
@@ -18,6 +18,11 @@ git branch //현재 branch 확인
 버전 충돌 방지하기 위함 </br>
 따로 제작 후 추가하는 방식
 
+-Local branch 삭제 시
+```
+git checkout master
+git branch -d <name>
+```
 3. push로 원격 저장소에 기본 branch 설정
 ```
 git push --set-upstream origin feature/SPRING2024_SE
